@@ -1,7 +1,8 @@
 # ShowPassword
 
 
-Disini saya akan menjelaskan bagaimana membuat Show password dengan javascript.
+Disini saya akan menjelaskan bagaimana membuat Show password.
+
 silakan melihat [Demo](https://bee-0.github.io/ShowPassword/)
 
 kode ini sudah dilengkapi dengan antar muka yang responsive 
