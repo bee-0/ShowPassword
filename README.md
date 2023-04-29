@@ -27,8 +27,8 @@ document.querySelector()
 ```
 
 - Ketika pengguna mengeklik elemen icon 
-```javascript
- showPassword() 
+```html
+ onclick="showPassword()
 ```
 akan dijalankan dan akan memeriksa jenis tipe input password 
 
