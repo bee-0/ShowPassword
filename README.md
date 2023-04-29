@@ -8,7 +8,7 @@ kode ini sudah dilengkapi dengan antar muka yang responsive
 gh repo clone bee-0/ShowPassword
 ```
 
-###Penjelasan
+##Penjelasan
 
 ShowPassword bekerja dengan cara, mengubah tipe input dari elemen password
 ```html
@@ -17,7 +17,7 @@ ShowPassword bekerja dengan cara, mengubah tipe input dari elemen password
 "password" menjadi "text" dan sebaliknya .
 
 
-###bekerja dengan cara!
+##bekerja dengan cara!
 
 - Mengambil referensi elemen input  password dan elemen icon dengan mengunakan 
 ```javascript
