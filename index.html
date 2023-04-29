@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+	 body{
+	  width: 100%;
+	  height: auto;
+	  margin: 0 auto;
+	 }
+	 
+	 a{
+  text-decoration: none;
+}
+	 
+	 .container {
+	  width: 100%;
+	  margin-top: 5rem;
+	 }
+	 
+	 h1{
+	  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5rem;   
+	 }
+	 
+	 form{
+	  width: 80%;
+	  height: auto;
+	  margin: 0 auto;
+	 }
+	 
+		input[type="text"], input[type="password"] { 
+			padding: 1.4rem 1.6rem;
+			margin-bottom: 1rem;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			width: 80%;
+			position: relative;
+			border: none;
+	outline: none;
+	border-radius: 1.5rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		button{
+	width: 60%;
+	height: 50px;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: rgba(0,0,0,0.8);
+	font-size: 1em;
+	font-weight: bold;
+	margin: 1.4rem auto;
+	outline: none;
+	border: none;
+	border-radius: 2rem;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+
+		.eye-icon {
+			position: absolute;
+			top: 40%;
+			right: 1.8rem;
+			transform: translateY(-50%);
+			cursor: pointer;
+		}
+		
+		.copyright p {
+		 font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10rem;
+		}
+	</style>
+</head>
+<body>
+ <h1>Login</h1>
+<div class="container">  
+	<form>
+		<input type="text" placeholder="Email">
+		<div style="position: relative;">
+			<input type="password" placeholder="Password" id="password">
+			<svg class="eye-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" onclick="showPassword()"><path d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316-.105-.316C21.927 11.617 19.633 5 12 5zm0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4z"/><path d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2 2-.916 2-2-.916-2-2-2z"/></svg>
+		</div>
+		<button type="submit">Login</button>
+	</form>
+ </div>
+ 
+ <div class="copyright">
+     <p>powered by <a href="">dioarafi</a></p>
+ </div>
+ 
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
+
+
